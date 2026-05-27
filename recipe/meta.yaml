@@ -6,7 +6,7 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/p/pytensor-distributions/pytensor_distributions-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/pytensor_distributions-{{ version }}.tar.gz
   sha256: 7884d0fa35ebe2fa16a0f1f7be851aab831d181c192af613083f7b3501b630f3
 
 build:
